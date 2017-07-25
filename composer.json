@@ -1,0 +1,22 @@
+{
+    "name": "dunaev/adserver-clientlocal",
+    "description": "client local implement api",
+    "type": "library",
+    "require": {
+        "dunaev/adserver-engine": "dev-master",
+        "dunaev/adserver-client": "dev-master",
+        "symfony/http-foundation": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Alexander Dunaev",
+            "email": "alexander.dunaev@together.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "AdServer\\ClientLocal\\": "src"
+        }
+    }
+}
